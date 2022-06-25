@@ -4,10 +4,13 @@
 A sliding puzzle, sliding block puzzle, or sliding tile puzzle is a combination puzzle that challenges a player to slide (frequently flat) pieces along certain routes (usually on a board) to establish a certain end-configuration. The pieces to be moved may consist of simple shapes, or they may be imprinted with colors, patterns, sections of a larger picture (like a jigsaw puzzle), numbers, or letters.
 
 - Input 
-![Puzzle:](file:///C:/Users/Prajwal/Downloads/Screenshot_20220625-151429_Sliding%20Puzzle%20Deluxe.jpg)
+
+![Screenshot_20220625-151429_Sliding Puzzle Deluxe_2](https://user-images.githubusercontent.com/65499831/175772203-947fe885-ece9-48cb-b825-b6dd0b368679.jpg)
 
 -Output
-![Puzzle:](file:///C:/Users/Prajwal/Downloads/Screenshot_20220625-165242_Sliding%20Puzzle%20Deluxe.jpg)
+
+![Screenshot_20220625-165242_Sliding Puzzle Deluxe-1](https://user-images.githubusercontent.com/65499831/175772172-f3016e98-7de1-410a-8003-932bd6321978.jpg)
+
 # Implemented traversal methods for sliding puzzle:
 
 ## 1) Implemented Uninformed Search Methods
@@ -59,7 +62,8 @@ expect to find a heuristic function satisfying this condition, and none of the
 previous efforts managed to satisfy this condition for any of the problems
 we’ve looked at.
 In practice, the main drawback of A* is its memory usage, rather than
-computation time. This makes A* unpractical for problems with huge search
+computation time. This makes A* unpractical for problems with huge search.
+
 ![Algorithm:](https://www.codeproject.com/KB/AI/368188/image006.png)
 
 #### 2.2) IDA* (Iterative-deepening A*) 
@@ -75,6 +79,7 @@ the same number of nodes as A*. The search spaces we are looking at are
 not that nice, however. In order for IDA* to avoid expanding the same
 node twice, we need to keep track of previously visited nodes. In this case a
 transposition table is often used.
+
 ## Author
 
 - [@PrajwalHD58](https://github.com/PrajwalHD58)
@@ -99,5 +104,14 @@ transposition table is often used.
 
 ## Screenshots
 
-![App Screenshot]()
+![2022-06-25 (2)](https://user-images.githubusercontent.com/65499831/175771821-cbb26091-85d1-4ea8-afe0-30dc3b5b909d.png)
+
+![2022-06-25 (7)](https://user-images.githubusercontent.com/65499831/175771831-e7f2bdce-bac3-41c1-ace0-944a52a1e155.png)
+![2022-06-25 (3)](https://user-images.githubusercontent.com/65499831/175771833-8eb6336f-9a40-492c-bb86-80cf9621e06a.png)
+![2022-06-25 (4)](https://user-images.githubusercontent.com/65499831/175771845-d6b7bfa9-aafc-4488-9986-c5c0573e5aa9.png)
+![2022-06-25 (5)](https://user-images.githubusercontent.com/65499831/175771847-444f758d-e869-4f14-bb6f-b9e679e69af1.png)
+![2022-06-25 (6)](https://user-images.githubusercontent.com/65499831/175771854-d4a18442-c788-4ad5-8ee5-f075518b2f19.png)
+
+
+
 
